@@ -102,9 +102,9 @@ class Settings{
     public function backend_scripts( $pageHook ){
         if( $pageHook == "settings_page_" . $this->page ||
             $pageHook == 'toplevel_page_' . $this->page ){
-            wp_enqueue_style( 'admin_css', plugin_dir_url( QM_PLUGIN_FILE ) . '/css/settings.css' );
+            wp_enqueue_style( 'admin_css', plugin_dir_url( EMPTY_PLUGIN_PLUGIN_FILE ) . '/css/settings.css' );
 
-            wp_enqueue_script( 'settings', plugin_dir_url( QM_PLUGIN_FILE ) . '/js/settingsPage.js', array( 'jquery' )  );
+            wp_enqueue_script( 'settings', plugin_dir_url( EMPTY_PLUGIN_PLUGIN_FILE ) . '/js/settingsPage.js', array( 'jquery' )  );
         }
     }
 
