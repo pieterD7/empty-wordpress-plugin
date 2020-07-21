@@ -1,1 +1,1 @@
-Empty WordPress plugin with options
+Empty WordPress plugin with options : the WordPress way.
