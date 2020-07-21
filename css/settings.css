@@ -1,0 +1,26 @@
+a.active{
+    color:black;
+    text-decoration: none;
+}
+#logo{
+    width: 100%;
+}
+.empty-settings #idhelp div,
+.empty-settings #idabout p{
+    float: left;
+    width: 450px;
+    max-width: 450px;
+}
+.empty-settings form{
+    width: calc(100% - 2rem);
+    float: left;
+    background: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#scrollTop{
+    margin-top: 2rem;
+}
+.hide{
+    display: none;
+}
