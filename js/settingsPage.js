@@ -41,7 +41,7 @@
     jQuery( document ).ready( () => {
         setActiveElements()
 
-        var cbs = document.querySelectorAll( '.qm-settings input[type=checkbox]' )
+        var cbs = document.querySelectorAll( '.empty-settings input[type=checkbox]' )
 
         cbs.forEach( ( cb ) => {
             cb.addEventListener( 'change', ( evnt ) => {
