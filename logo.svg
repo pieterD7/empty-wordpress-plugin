@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="117.60716mm"
+   height="104.27666mm"
+   viewBox="0 0 117.60716 104.27666"
+   version="1.1"
+   id="svg83709"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="Logo WCAG made easy.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview83711"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.4130181"
+     inkscape:cx="337.33688"
+     inkscape:cy="220.47079"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs83706" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.1758,-65.232802)">
+    <path
+       style="fill:#333333;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 123.78296,95.836907 108.10198,84.489221 c 0,0 -15.275357,-19.256418 -43.122597,-19.256418 -27.847236,0 -43.122605,19.256418 -43.122605,19.256418 L 6.1758,95.836907 v 43.068453 l 15.680978,11.34769 c 0,0 15.275369,19.25642 43.122605,19.25642 27.84724,0 43.122597,-19.25642 43.122597,-19.25642 l 15.68098,-11.34769 z"
+       id="path869-0-9-3-4"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 121.36646,96.820472 106.32989,85.991081 c 0,0 -14.647627,-18.376908 -41.350517,-18.376908 -26.702869,0 -41.350507,18.376908 -41.350507,18.376908 L 8.592287,96.820472 v 41.101348 l 15.036579,10.8294 c 0,0 14.647638,18.3769 41.350507,18.3769 26.70289,0 41.350517,-18.3769 41.350517,-18.3769 l 15.03657,-10.8294 z"
+       id="path869-0-2-8"
+       sodipodi:nodetypes="ccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.1355px;line-height:1.25;font-family:'Linux Libertine Display G';-inkscape-font-specification:'Linux Libertine Display G Bold';fill:#ffff99;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.879522"
+       y="128.07384"
+       id="text5387-5-2"><tspan
+         sodipodi:role="line"
+         id="tspan5385-4-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Linux Libertine Display G';-inkscape-font-specification:'Linux Libertine Display G Bold';fill:#ffff99;fill-opacity:1;stroke-width:0.264583"
+         x="15.879522"
+         y="128.07384">WCAG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Gabriola;-inkscape-font-specification:'Gabriola Bold';fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="50.646435"
+       y="93.989845"
+       id="text6681-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan6679-7-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;font-family:Gabriola;-inkscape-font-specification:'Gabriola Bold';fill:#ffcc00;fill-opacity:1;stroke-width:0.264583"
+         x="50.646435"
+         y="93.989845">made</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Gabriola;-inkscape-font-specification:'Gabriola Bold';fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="53.749081"
+       y="148.26207"
+       id="text8371-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan8369-3-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;font-family:Gabriola;-inkscape-font-specification:'Gabriola Bold';fill:#ffcc00;stroke-width:0.264583"
+         x="53.749081"
+         y="148.26207">easy</tspan></text>
+  </g>
+</svg>

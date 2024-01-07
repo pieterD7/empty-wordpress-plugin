@@ -1,0 +1,126 @@
+:host{
+    --wcagme-font-size: 1em;
+    --wcagme-size-button: 25px;
+    --wcagme-size-border-radius: 5px;
+    --wcagme-color-background: #202020;
+    --wcagme-color-text: #f7f7f7;
+    --wcagme-color-border: aliceblue;
+}
+
+*{
+    box-sizing: border-box;
+    font-size: var(--wcagme-font-size);
+}
+
+button{
+    padding: 0;
+    padding-inline: 0;
+    margin: 0;
+    border-style: none;
+    padding-block: 0;
+    background: transparent;
+    max-width: var(--wcagme-size-button);
+    max-height: var(--wcagme-size-button);
+}
+
+button svg{
+    max-width: var(--wcagme-size-button);
+    max-height: var(--wcagme-size-button);
+    margin-top: inherit;
+    stroke: var(--wcagme-color-border);
+    fill: var(--wcagme-color-border);
+}
+
+button svg:active,
+button:not(.disabled) svg:hover{
+    border: 1px solid var(--wcagme-color-border);
+}
+
+.error{
+    background-color: tomato;
+}
+
+.player.hidden,
+div.landmarks.hidden,
+div.error-info.hidden{
+    display: none;
+}
+
+.player{
+    display: grid;
+    align-items: center;
+    grid-template-columns: var(--wcagme-size-button) var(--wcagme-size-button) var(--wcagme-size-button);
+    background-color: var(--wcagme-color-background);
+    margin:0;
+    padding: 0;
+    padding-inline: 0;
+    padding-block: 0;
+    border-radius: var(--wcagme-size-border-radius);
+    border: 1px solid var(--wcagme-color-border);
+}
+
+.player > button{
+    display: grid;
+}
+
+.landmarks,
+.error-info{
+    display: grid;
+    grid-template-columns: calc(3 * var(--wcagme-size-button));
+}
+
+.play span,
+.info span{
+    cursor: pointer;
+    max-width: var(--wcagme-size-button);
+    max-height: var(--wcagme-size-button);
+}
+
+.play .paused{
+    display:none;
+}
+.play .active{
+    display:block;
+}
+.play.state-paused .paused{
+    display:block;
+}
+.play.state-paused .active{
+    display:none;
+}
+
+button span{
+    padding:2px;
+    border-radius: 2px;
+}
+
+button.disabled span svg{
+    opacity: 0.25;
+}
+
+.error-info, 
+.landmarks{
+    color: var(--wcagme-color-text);
+    line-height: 1.5;
+    max-height: 1.5em;
+    width: fit-content;
+    overflow: hidden;
+    margin: 4px 8px;
+}
+.error-info > div,
+.landmarks  > div{
+    white-space: pre;
+    max-height: 100%;
+    overflow-x: auto;
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.landmarks.expanded{
+    max-height: inherit;
+}
+
+.inactive{
+    opacity: 0.5;
+}
+
+

@@ -2,8 +2,64 @@ a.active{
     color:black;
     text-decoration: none;
 }
-#logo{
-    width: 100%;
+a[target=_blank]{
+    text-decoration: none;
+}
+form > div{
+    float: left;
+    padding-right: 2em;;
+}
+body.wcagme-busy .wcagme-audit,
+body.wcagme-busy .wcagme-audit button.button{
+    cursor: progress;
+}
+.wcagme-audit{
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+.wcagme-audit span{
+    display: inline-block;
+}
+.wcagme-audit label,
+.wcagme-audit button.button{
+    margin-right: 2em;
+}
+.wcagme-audit .result{
+    line-height: 1.5;
+}
+.wcagme-audit .result .results:not(.text-weight-normal) span{
+    font-weight: bold;
+}
+.wcagme-audit .result .results > *{
+    padding: 0 0.25em;
+    margin: 0 0.25em;
+}
+.wcagme-audit .result .guideline:not(:last-of-type){
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+.wcagme-audit .result div:not(.landmarks) > div:not(.guideline){
+    border: 1px solid #c3c4c7;
+    border-left-width: 0.25em;
+    margin-left: 0.5em;
+    padding: 1px 12px;
+}
+.wcagme-audit .result div > div.error{
+    border-left-color: tomato;
+}
+.wcagme-audit .result div > div.warning{
+    border-left-color: orange;
+}
+.wcagme-audit .result div > div.notice{
+    border-left-color: plum;
+}
+.wcagme-audit .result div.landmarks{
+    margin-left: 0.5em;
+}
+.wcagme-audit .result div.landmarks > *:not(ul){
+    border:none;
+    font-weight: bold;
 }
 .empty-settings #idhelp div,
 .empty-settings #idabout p{
@@ -12,15 +68,21 @@ a.active{
     max-width: 450px;
 }
 .empty-settings form{
-    width: calc(100% - 2rem);
+    width: calc(100% - 3rem);
     float: left;
     background: white;
     padding: 1rem;
     margin-top: 2rem;
+}
+.empty-settings form > div:nth-child(2){
+    width: calc(100% - 3rem - 150px - 2em);
 }
 #scrollTop{
     margin-top: 2rem;
 }
 .hide{
     display: none;
+}
+.unvisible{
+    visibility: hidden;
 }

@@ -1,0 +1,25 @@
+
+header ul{
+    display: inline-flex;
+    align-items: baseline;
+    flex-flow: wrap;
+}
+header ul li a span.dashicons{
+    display: block;
+}
+body.wcagme-busy,
+body.wcagme-busy a{
+    cursor:progress;
+}
+.fixed .column-audio{
+    width: 50px;
+}
+.hasAudio .attach-audio,
+.remove-audio{
+    display: none;
+}
+.attach-audio,
+.hasAudio .remove-audio{
+    cursor: pointer;
+    display: inline-block;
+}
